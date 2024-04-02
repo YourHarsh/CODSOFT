@@ -10,7 +10,7 @@ int main(){
 
 
     while(true){
-        cout<<"if you have done with student and grade then please type exit"<<" ";
+        cout<<"if you are done with student and grade then please type exit"<<endl;
         cout<<"Enter Student Name"<<" ";
         cin>>name;
         cout<<"Please Choose your grade from: A+, A, B+, B, C+, C "<<" ";
@@ -28,6 +28,7 @@ int main(){
     }
 
     for(int i=0; i<arr1.size(); i++){
-
+         cout<<arr[i]<<" "<<arr1[i]<<endl;
     }
+    return 0;
 }
